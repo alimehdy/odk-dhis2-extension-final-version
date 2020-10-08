@@ -4,11 +4,11 @@ import { HttpHeaders } from '@angular/common/http';
 import { isDevMode } from '@angular/core';
 import { timeout, catchError, retryWhen, mergeMap, delay, take } from 'rxjs/operators';
 import { throwError, of } from 'rxjs';
-const dhisUser = 'Ali.Mehdy';
-const dhisPassword = 'LBN22v10!LBN22v10';
+const dhisUser = '';
+const dhisPassword = '';
 
-const onaUser = 'im_officer_leb';
-const onaPassword = 'LBNIM22v10';
+const onaUser = '';
+const onaPassword = '';
 
 let dhisHttpOptions;
 let onaHttpOptions;
